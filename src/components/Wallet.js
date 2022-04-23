@@ -106,7 +106,7 @@ function Wallet({ increm }) {
 
   return (
     <>
-      <p className="font-700 primary_color my-0 font-lg">
+      <p className="primary_color my-0 font-lg">
         <span id="price">{`${parseFloat(amount).toFixed(2)} ETH`}</span>
       </p>
       <div className="input__div col-5 d-flex margin_78">
@@ -130,16 +130,13 @@ function Wallet({ increm }) {
           </button>
         </div>
       </div>
-      <button
-        className="button btn my-3 connect-btn"
-        onClick={connectWalletHandler}
-      >
+      <button className="my__btn  my-3 " onClick={connectWalletHandler}>
         {connButtonText}
       </button>
       <button className="hidden-btn btn my-3 mint-btn" onClick={mintNFT}>
         Mint NFTs
       </button>
-      <p className="primary_color font-lg font-700">
+      <p className="font_mk font-400">
         <span>{increm}</span> / <span>1111</span>
       </p>
     </>

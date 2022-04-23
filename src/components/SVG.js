@@ -15,7 +15,7 @@ function SVG() {
           className="postion_arrow"
           width="187"
           height="106"
-          color="#f37055"
+          color="#ed0505"
           id="ade87f52-0ac0-438e-bc39-231b0e93f8ea"
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
